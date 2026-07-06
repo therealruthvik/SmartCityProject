@@ -265,7 +265,8 @@ String username;
 boolean flag = false;
    
     public static void main(String args[]) {
-       
+        com.formdev.flatlaf.FlatLightLaf.setup();
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainJFrame().setVisible(true);
